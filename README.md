@@ -1,47 +1,89 @@
-# MERN E-COMMERCE TUTORIAL
+ MERN Stack E-Commerce Website
 
-Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+A full-stack e-commerce platform built using **MongoDB, Express.js, React, and Node.js (MERN)** with features like product listing, search, filter, pagination, user authentication, cart management, and admin routes.
 
-# Prerequisite
+## 📌 Features
+- Product listing with search, filter, and pagination
+- User registration, login, and authentication
+- Secure admin panel for managing products, users, and orders
+- Cart management and order creation
+- Responsive design for all devices
+- State management using Redux
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  Node - https://youtu.be/BSO9C8Z-YV8
-3.  React - https://youtu.be/99kgUCIMboY
-4.  Express - https://youtu.be/teipbke8c4A\
-5.  MongoDB - https://youtu.be/AYDP1S5BbTo
-6.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
+## 🛠️ Tech Stack
+**Frontend:**
+- React.js
+- Redux Toolkit
+- Tailwind CSS / Bootstrap *(mention whichever you used)*
 
-# Install Dependencies
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-**For Backend** - `npm i`
+**Other Tools:**
+- Git & GitHub
+- Postman for API testing
+- Heroku / Render for deployment
 
-**For Frontend** - `cd frontend` ` npm i`
+## 📂 Project Structure
 
-## Env Variables
 
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
+/backend   → Express server & API routes
+/frontend  → React frontend code
 
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
 
-## Author
 
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+## ⚙️ Installation & Setup
+1. Clone the repository:
+
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+
+2. Install backend dependencies:
+
+
+   cd backend
+   npm install
+
+
+3. Install frontend dependencies:
+
+
+   cd ../frontend
+   npm install
+
+
+4. Create a .env file in the backend folder and add:
+
+
+   MONGO_URI=your-mongodb-uri
+   JWT_SECRET=your-secret-key
+   PORT=5000
+
+
+5. Start the backend server:
+
+
+   cd backend
+   npm run dev
+
+
+6. Start the frontend:
+
+   cd frontend
+   npm start
+
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+
+---
+
+If you want, I can also **add a “Chapter-wise Features Learned” section** using your timestamps so your README also works as a portfolio showcase.  
+That would make it look way more impressive for recruiters.  
+```
