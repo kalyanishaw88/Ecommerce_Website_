@@ -82,8 +82,5 @@ A full-stack e-commerce platform built using **MongoDB, Express.js, React, and N
 This project is licensed under the MIT License.
 
 
----
 
-If you want, I can also **add a “Chapter-wise Features Learned” section** using your timestamps so your README also works as a portfolio showcase.  
-That would make it look way more impressive for recruiters.  
 ```
